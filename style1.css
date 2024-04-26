@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: rgb(244, 244, 236);
+    margin-bottom: -13px;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+    color: azure;
+}
+
+li{
+    margin-top: -15px;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;   
+}
+
+.main-todo-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: auto;
+    color: bisque; 
+}
+
+.deleteBtn{
+    width:90px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(202, 202, 85);
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background-color: rgb(221, 221, 87);
+}
